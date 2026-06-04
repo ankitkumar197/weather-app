@@ -21,7 +21,7 @@ async function CheaWeather(city) {
     document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
 
     if (data.weather[0].main == "Clouds"){
-        weatherIcon.src ="iclouds.png";
+        weatherIcon.src ="clouds.png";
     }
     else if (data.weather[0].main == "Clear"){
          weatherIcon.src = "clear.png";
